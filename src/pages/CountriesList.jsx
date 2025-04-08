@@ -31,7 +31,7 @@ const CountryList = () => {
     : countries;
 
   return (
-    <div className="mt-[100px]">
+    <div className="my-[100px]">
       <Heroes setSearchTerm={setSearchTerm} />
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-16 lg:px-20 sm:mx-8 mx-8">
         {filteredCountries.length > 0 ? (

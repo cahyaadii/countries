@@ -15,7 +15,6 @@ const Continents = () => {
           ...new Set(data.map((country) => country.region).filter(Boolean)),
         ];
 
-        // Gunakan nama region secara langsung tanpa manipulasi
         const formattedContinents = uniqueContinents.map((region) => ({
           name: region,
           code: region,
